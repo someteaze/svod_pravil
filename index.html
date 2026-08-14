@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Свод правил наказаний — Prison RP</title>
+<meta name="description" content="Официальный свод правил наказаний Prison RP: виды наказаний, эскалация и основания.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- decorative perforation strip -->
+<div class="perf-strip" aria-hidden="true"></div>
+
+<header class="cover">
+  <div class="cover__stamp-ring" aria-hidden="true">
+    <svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="54"/></svg>
+  </div>
+  <div class="cover__inner">
+    <p class="cover__eyebrow">Департамент Внутреннего Порядка &mdash; Дело №&nbsp;RP&#8209;001</p>
+    <h1 class="cover__title">Свод правил<br>наказаний</h1>
+    <p class="cover__subtitle">Prison RP &mdash; официальный регламент применения мер</p>
+    <div class="cover__stamp">
+      <span>ДЕЙСТВУЮЩИЙ<br>ДОКУМЕНТ</span>
+    </div>
+  </div>
+  <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="tabNav">
+    <span></span><span></span><span></span>
+    <span class="menu-toggle__label">Разделы</span>
+  </button>
+</header>
+
+<nav class="tab-nav" id="tabNav" aria-label="Разделы свода правил">
+  <a href="#preamble" class="tab-nav__tab is-active">Вступление</a>
+  <a href="#types" class="tab-nav__tab">Виды наказаний</a>
+  <a href="#verbal" class="tab-nav__tab">Устное</a>
+  <a href="#interstaff" class="tab-nav__tab">Interstaff</a>
+  <a href="#sound" class="tab-nav__tab">Звук</a>
+  <a href="#malicious" class="tab-nav__tab">Вредоносные</a>
+  <a href="#flirt" class="tab-nav__tab">Флирт RP / 18+</a>
+  <a href="#other" class="tab-nav__tab">Другие</a>
+</nav>
+
+<main>
+
+  <!-- ============ PREAMBLE ============ -->
+  <section class="section" id="preamble">
+    <div class="section__head">
+      <span class="section__code">§0</span>
+      <h2 class="section__title">Вступление</h2>
+    </div>
+
+    <div class="note-block note-block--important">
+      <span class="note-block__mark">Важно</span>
+      <p>Каждое применяемое наказание должно соответствовать данному своду правил. Причина наказания и обоснование должны быть указаны в соответствующем поле чётко и в полном объёме.</p>
+    </div>
+
+    <div class="philosophy">
+      <p class="philosophy__label">Философия</p>
+      <p class="philosophy__text">Мы наказываем не игрока, а его поведение. Цель — исправить поведение игрока и сохранить его в игре.</p>
+    </div>
+
+    <ul class="rules-list">
+      <li>Бан применяется только после того, как <strong>NOTIFY / WARN / KICK</strong> не дали результата.</li>
+      <li>Для тяжёлых нарушений (читы, доксинг, NSFW, угрозы реальной жизни, сексуальный контент, мошенничество с реальными деньгами) данная последовательность <strong>не применяется</strong> — наказание выносится напрямую.</li>
+      <li>Staff имеет право адаптировать наказание с учётом серьёзности ситуации, истории нарушений игрока и имеющихся доказательств.</li>
+      <li>Попытка злоупотребления полномочиями по применению наказаний может привести к наказанию самого Staff.</li>
+      <li>Данный свод правил не является исчерпывающим и может быть изменён или дополнен в любое время.</li>
+    </ul>
+  </section>
+
+  <!-- ============ PUNISHMENT TYPES ============ -->
+  <section class="section" id="types">
+    <div class="section__head">
+      <span class="section__code">§1</span>
+      <h2 class="section__title">Виды наказаний</h2>
+    </div>
+
+    <div class="types-grid">
+      <div class="type-card" data-tier="notify">
+        <span class="type-card__stamp">NOTIFY</span>
+        <h3>Напоминание</h3>
+        <p>Игровое напоминание. Используется в образовательных целях и не является наказанием. В случае незначительных нарушений сначала используйте его.</p>
+      </div>
+      <div class="type-card" data-tier="warn">
+        <span class="type-card__stamp">WARN</span>
+        <h3>Предупреждение</h3>
+        <p>Официальное предупреждение, которое заносится в историю нарушений игрока.</p>
+      </div>
+      <div class="type-card" data-tier="kick">
+        <span class="type-card__stamp">KICK</span>
+        <h3>Удаление с сервера</h3>
+        <p>Немедленное удаление с сервера. Останавливает нарушение непосредственно в момент его совершения. Игрок может вернуться. Стандартная мера, когда WARN уже недостаточно.</p>
+      </div>
+      <div class="type-card" data-tier="ban">
+        <span class="type-card__stamp">BAN</span>
+        <h3>Блокировка</h3>
+        <p>Крайняя мера. Всегда начинайте с короткого срока. Перманентный бан применяется только к нарушениям, для которых он предусмотрен.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ VERBAL ============ -->
+  <section class="section category" id="verbal">
+    <div class="section__head">
+      <span class="section__code section__code--folder">Раздел I</span>
+      <h2 class="section__title">
+        <svg class="section__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v11H8l-4 4V4z"/></svg>
+        Устное
+      </h2>
+    </div>
+
+    <article class="rule-card">
+      <header class="rule-card__head">
+        <span class="rule-card__code">УСТ&#8209;01</span>
+        <h3 class="rule-card__title">Оскорбление игрока</h3>
+      </header>
+      <ol class="ladder">
+        <li class="ladder__step" data-tier="notify"><span class="ladder__when">Первый раз</span><span class="ladder__badge">NOTIFY</span></li>
+        <li class="ladder__step" data-tier="warn"><span class="ladder__when">Повторно</span><span class="ladder__badge">WARN</span></li>
+        <li class="ladder__step" data-tier="kick"><span class="ladder__when">Повторно</span><span class="ladder__badge">KICK</span></li>
+        <li class="ladder__step" data-tier="ban"><span class="ladder__when">Повторно</span><span class="ladder__badge">BAN 12ч</span></li>
+        <li class="ladder__step" data-tier="ban-max"><span class="ladder__when">Крайнее повторение</span><span class="ladder__badge">BAN 3д</span></li>
+      </ol>
+    </article>
+
+    <article class="rule-card">
+      <header class="rule-card__head">
+        <span class="rule-card__code">УСТ&#8209;02</span>
+        <h3 class="rule-card__title">Неуважение к игроку</h3>
+      </header>
+      <ol class="ladder">
+        <li class="ladder__step" data-tier="notify"><span class="ladder__when">Первый раз</span><span class="ladder__badge">NOTIFY</span></li>
+        <li class="ladder__step" data-tier="warn"><span class="ladder__when">Повторно</span><span class="ladder__badge">WARN</span></li>
+        <li class="ladder__step" data-tier="kick"><span class="ladder__when">Повторно</span><span class="ladder__badge">KICK</span></li>
+        <li class="ladder__step" data-tier="ban"><span class="ladder__when">Крайнее повторение</span><span class="ladder__badge">BAN 12ч</span></li>
+      </ol>
+    </article>
+
+    <article class="rule-card">
+      <header class="rule-card__head">
+        <span class="rule-card__code">УСТ&#8209;03</span>
+        <h3 class="rule-card__title">Преследование / повторная провокация</h3>
+      </header>
+      <ol class="ladder">
+        <li class="ladder__step" data-tier="warn"><span class="ladder__when">Первый раз</span><span class="ladder__badge">WARN</span></li>
+        <li class="ladder__step" data-tier="ban"><span class="ladder__when">Повторно</span><span class="ladder__badge">BAN 1д</span></li>
+        <li class="ladder__step" data-tier="ban"><span class="ladder__when">Повторно</span><span class="ladder__badge">BAN 7д</span></li>
+        <li class="ladder__step" data-tier="ban-max"><span class="ladder__when">Крайнее повторение</span><span class="ladder__badge">PERM BAN</span></li>
+      </ol>
+    </article>
+
+    <article class="rule-card rule-card--direct">
+      <header class="rule-card__head">
+        <span class="rule-card__code">УСТ&#8209;04</span>
+        <h3 class="rule-card__title">Дискриминационные высказывания <span class="rule-card__hint">(расизм, гомофобия, антисемитизм и&nbsp;т.&nbsp;д.)</span></h3>
+      </header>
+      <div class="verdict-row">
+        <div class="verdict" data-tier="ban">
+          <span class="verdict__label">Минимум</span>
+          <span class="verdict__badge">BAN 7д</span>
+        </div>
+        <div class="verdict" data-tier="ban-max">
+          <span class="verdict__label">Тяжёлый случай / повторное нарушение</span>
+          <span class="verdict__badge">PERM BAN</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="rule-card rule-card--direct rule-card--severe">
+      <header class="rule-card__head">
+        <span class="rule-card__code">УСТ&#8209;05</span>
+        <h3 class="rule-card__title">Серьёзные угрозы / угрозы реальной жизни (IRL)</h3>
+      </header>
+      <div class="verdict-row">
+        <div class="verdict verdict--solo" data-tier="ban-max">
+          <span class="verdict__label">Любой случай</span>
+          <span class="verdict__badge">PERM BAN</span>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- ============ INTERSTAFF ============ -->
+  <section class="section category" id="interstaff">
+    <div class="section__head">
+      <span class="section__code section__code--folder">Раздел II</span>
+      <h2 class="section__title">
+        <svg class="section__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l8 3v6c0 5-3.4 8.7-8 11-4.6-2.3-8-6-8-11V5l8-3z"/></svg>
+        Interstaff
+      </h2>
+    </div>
+
+    <article class="rule-card">
+      <header class="rule-card__head">
+        <span class="rule-card__code">ISF&#8209;01</span>
+        <h3 class="rule-card__title">Оскорбление Staff</h3>
+      </header>
+      <ol class="ladder">
+        <li class="ladder__step" data-tier="warn"><span class="ladder__when">Первый раз</span><span class="ladder__badge">WARN</span></li>
+        <li class="ladder__step" data-tier="kick"><span class="ladder__when">Повторно</span><span class="ladder__badge">KICK</span></li>
+        <li class="ladder__step" data-tier="ban"><span class="ladder__when">Повторно</span><span class="ladder__badge">BAN 1д</span></li>
+        <li class="ladder__step" data-tier="ban-max"><span class="ladder__when">Крайнее повторение</span><span class="ladder__badge">BAN 7д</span></li>
+      </ol>
+    </article>
+
+    <article class="rule-card">
+      <header class="rule-card__head">
+        <span class="rule-card__code">ISF&#8209;02</span>
+        <h3 class="rule-card__title">Неуважение к Staff</h3>
+      </header>
+      <ol class="ladder">
+        <li class="ladder__step" data-tier="notify"><span class="ladder__when">Первый раз</span><span class="ladder__badge">NOTIFY</span></li>
+        <li class="ladder__step" data-tier="warn"><span class="ladder__when">Повторно</span><span class="ladder__badge">WARN</span></li>
+        <li class="ladder__step" data-tier="kick"><span class="ladder__when">Повторно</span><span class="ladder__badge">KICK</span></li>
+        <li class="ladder__step" data-tier="ban"><span class="ladder__when">Крайнее повторение</span><span class="ladder__badge">BAN 12ч</span></li>
+      </ol>
+    </article>
+
+    <article class="rule-card">
+      <header class="rule-card__head">
+        <span class="rule-card__code">ISF&#8209;03</span>
+        <h3 class="rule-card__title">Выход из игры во время Interstaff без уважительной причины</h3>
+      </header>
+      <ol class="ladder">
+        <li class="ladder__step" data-tier="warn"><span class="ladder__when">Первый раз</span><span class="ladder__badge">WARN</span></li>
+        <li class="ladder__step" data-tier="ban"><span class="ladder__when">Повторно</span><span class="ladder__badge">BAN 12ч</span></li>
+        <li class="ladder__step" data-tier="ban-max"><span class="ladder__when">Крайнее повторение</span><span class="ladder__badge">BAN 3д</span></li>
+      </ol>
+    </article>
+
+    <article class="rule-card">
+      <header class="rule-card__head">
+        <span class="rule-card__code">ISF&#8209;04</span>
+        <h3 class="rule-card__title">Ложь Staff</h3>
+      </header>
+      <ol class="ladder">
+        <li class="ladder__step" data-tier="warn"><span class="ladder__when">Первый раз</span><span class="ladder__badge">Строгий WARN</span></li>
+        <li class="ladder__step" data-tier="ban"><span class="ladder__when">Повторно</span><span class="ladder__badge">BAN 1д</span></li>
+        <li class="ladder__step" data-tier="ban-max"><span class="ladder__when">Поддельный репорт / необоснованное обвинение</span><span class="ladder__badge">BAN 7д</span></li>
+      </ol>
+    </article>
+
+    <article class="rule-card">
+      <header class="rule-card__head">
+        <span class="rule-card__code">ISF&#8209;05</span>
+        <h3 class="rule-card__title">Отказ от сотрудничества со Staff</h3>
+      </header>
+      <ol class="ladder">
+        <li class="ladder__step" data-tier="warn"><span class="ladder__when">Первый раз</span><span class="ladder__badge">WARN</span></li>
+        <li class="ladder__step" data-tier="kick"><span class="ladder__when">Повторно</span><span class="ladder__badge">KICK</span></li>
+        <li class="ladder__step" data-tier="ban-max"><span class="ladder__when">Крайнее повторение</span><span class="ladder__badge">BAN 12ч</span></li>
+      </ol>
+    </article>
+
+    <article class="rule-card">
+      <header class="rule-card__head">
+        <span class="rule-card__code">ISF&#8209;06</span>
+        <h3 class="rule-card__title">Troll Ticket / Необоснованный тикет</h3>
+      </header>
+      <ol class="ladder">
+        <li class="ladder__step" data-tier="notify"><span class="ladder__when">Первый раз</span><span class="ladder__badge">NOTIFY</span></li>
+        <li class="ladder__step" data-tier="warn"><span class="ladder__when">Повторно</span><span class="ladder__badge">WARN</span></li>
+        <li class="ladder__step" data-tier="kick"><span class="ladder__when">Крайнее повторение</span><span class="ladder__badge">KICK</span></li>
+      </ol>
+    </article>
+  </section>
+
+  <!-- ============ SOUND ============ -->
+  <section class="section category" id="sound">
+    <div class="section__head">
+      <span class="section__code section__code--folder">Раздел III</span>
+      <h2 class="section__title">
+        <svg class="section__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 5V4L8 9H4zm11.5 3a4.5 4.5 0 0 0-2.5-4.03v8.06A4.5 4.5 0 0 0 15.5 12z"/></svg>
+        Звук
+      </h2>
+    </div>
+
+    <div class="note-block">
+      <span class="note-block__mark">Заметка</span>
+      <p>Здесь основным наказанием является Kick &mdash; он немедленно прекращает нарушение.</p>
+    </div>
+
+    <article class="rule-card">
+      <header class="rule-card__head">
+        <span class="rule-card__code">ЗВК&#8209;01</span>
+        <h3 class="rule-card__title">Soundboard</h3>
+      </header>
+      <ol class="ladder">
+        <li class="ladder__step" data-tier="notify"><span class="ladder__when">Первый раз</span><span class="ladder__badge">NOTIFY</span></li>
+        <li class="ladder__step" data-tier="warn"><span class="ladder__when">Повторно</span><span class="ladder__badge">WARN</span></li>
+        <li class="ladder__step" data-tier="kick"><span class="ladder__when">Повторно</span><span class="ladder__badge">KICK</span></li>
+        <li class="ladder__step" data-tier="ban-max"><span class="ladder__when">Крайнее повторение</span><span class="ladder__badge">BAN 12ч</span></li>
+      </ol>
+    </article>
+
+    <article class="rule-card rule-card--direct">
+      <header class="rule-card__head">
+        <span class="rule-card__code">ЗВК&#8209;02</span>
+        <h3 class="rule-card__title">Earrape / Намеренно агрессивные звуки</h3>
+      </header>
+      <ol class="ladder">
+        <li class="ladder__step" data-tier="kick"><span class="ladder__when">Первый раз</span><span class="ladder__badge">Немедленный KICK</span></li>
+        <li class="ladder__step" data-tier="ban"><span class="ladder__when">Повторно</span><span class="ladder__badge">BAN 1д</span></li>
+        <li class="ladder__step" data-tier="ban-max"><span class="ladder__when">Крайнее повторение</span><span class="ladder__badge">BAN 7д</span></li>
+      </ol>
+    </article>
+
+    <article class="rule-card">
+      <header class="rule-card__head">
+        <span class="rule-card__code">ЗВК&#8209;03</span>
+        <h3 class="rule-card__title">Чрезмерное использование голосового чейнджера</h3>
+      </header>
+      <ol class="ladder">
+        <li class="ladder__step" data-tier="notify"><span class="ladder__when">Первый раз</span><span class="ladder__badge">NOTIFY</span></li>
+        <li class="ladder__step" data-tier="warn"><span class="ladder__when">Повторно</span><span class="ladder__badge">WARN</span></li>
+        <li class="ladder__step" data-tier="kick"><span class="ladder__when">Крайнее повторение</span><span class="ladder__badge">KICK</span></li>
+      </ol>
+    </article>
+
+    <article class="rule-card">
+      <header class="rule-card__head">
+        <span class="rule-card__code">ЗВК&#8209;04</span>
+        <h3 class="rule-card__title">Спам микрофоном / Крики / Шумовое загрязнение</h3>
+      </header>
+      <ol class="ladder">
+        <li class="ladder__step" data-tier="notify"><span class="ladder__when">Первый раз</span><span class="ladder__badge">NOTIFY</span></li>
+        <li class="ladder__step" data-tier="warn"><span class="ladder__when">Повторно</span><span class="ladder__badge">WARN</span></li>
+        <li class="ladder__step" data-tier="kick"><span class="ladder__when">Повторно</span><span class="ladder__badge">KICK</span></li>
+        <li class="ladder__step" data-tier="ban-max"><span class="ladder__when">Крайнее повторение</span><span class="ladder__badge">BAN 12ч</span></li>
+      </ol>
+    </article>
+  </section>
+
+  <!-- ============ MALICIOUS VIOLATIONS ============ -->
+  <section class="section category" id="malicious">
+    <div class="section__head">
+      <span class="section__code section__code--folder">Раздел IV</span>
+      <h2 class="section__title">
+        <svg class="section__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 2 7v6c0 5.2 3.8 9.7 10 11 6.2-1.3 10-5.8 10-11V7l-10-5zm-1.2 15-4-4 1.4-1.4 2.6 2.6 6-6L18.2 9l-7.4 8z"/></svg>
+        Вредоносные нарушения
+      </h2>
+    </div>
+
+    <div class="note-block note-block--important">
+      <span class="note-block__mark">Важно</span>
+      <p>Тяжёлая категория: последовательность Notify / Warn / Kick не применяется. Наказание выносится напрямую.</p>
+    </div>
+
+    <article class="rule-card rule-card--direct rule-card--severe">
+      <header class="rule-card__head">
+        <span class="rule-card__code">ВРД&#8209;01</span>
+        <h3 class="rule-card__title">Использование второго аккаунта для обхода наказания</h3>
+      </header>
+      <div class="verdict-row">
+        <div class="verdict verdict--solo" data-tier="ban-max">
+          <span class="verdict__label">Любой случай</span>
+          <span class="verdict__badge">PERM BAN + возможный Blacklist</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="rule-card rule-card--direct">
+      <header class="rule-card__head">
+        <span class="rule-card__code">ВРД&#8209;02</span>
+        <h3 class="rule-card__title">Реклама без разрешения</h3>
+      </header>
+      <ol class="ladder">
+        <li class="ladder__step" data-tier="kick"><span class="ladder__when">Первый раз</span><span class="ladder__badge">KICK + удаление контента</span></li>
+        <li class="ladder__step" data-tier="ban"><span class="ladder__when">Повторно</span><span class="ladder__badge">BAN 3д</span></li>
+        <li class="ladder__step" data-tier="ban-max"><span class="ladder__when">Крайнее повторение / массовая реклама</span><span class="ladder__badge">BAN 7д&ndash;PERM</span></li>
+      </ol>
+    </article>
+
+    <article class="rule-card rule-card--direct rule-card--severe">
+      <header class="rule-card__head">
+        <span class="rule-card__code">ВРД&#8209;03</span>
+        <h3 class="rule-card__title">Мошенничество / Попытка мошенничества <span class="rule-card__hint">(Robux / реальные деньги)</span></h3>
+      </header>
+      <div class="verdict-row">
+        <div class="verdict verdict--solo" data-tier="ban-max">
+          <span class="verdict__label">Любой случай</span>
+          <span class="verdict__badge">PERM BAN</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="rule-card rule-card--direct">
+      <header class="rule-card__head">
+        <span class="rule-card__code">ВРД&#8209;04</span>
+        <h3 class="rule-card__title">Мошенничество на сумму свыше 3000$ в игре <span class="rule-card__hint">(стоимость обмена)</span></h3>
+      </header>
+      <ol class="ladder">
+        <li class="ladder__step" data-tier="ban"><span class="ladder__when">Первый раз</span><span class="ladder__badge">BAN 3д + компенсация ущерба</span></li>
+        <li class="ladder__step" data-tier="ban"><span class="ladder__when">Повторно</span><span class="ladder__badge">BAN 7д</span></li>
+        <li class="ladder__step" data-tier="ban-max"><span class="ladder__when">Крайнее повторение</span><span class="ladder__badge">PERM BAN</span></li>
+      </ol>
+    </article>
+
+    <article class="rule-card rule-card--direct">
+      <header class="rule-card__head">
+        <span class="rule-card__code">ВРД&#8209;05</span>
+        <h3 class="rule-card__title">Распространение вредоносной дезинформации</h3>
+      </header>
+      <ol class="ladder">
+        <li class="ladder__step" data-tier="warn"><span class="ladder__when">Первый раз</span><span class="ladder__badge">Строгий WARN</span></li>
+        <li class="ladder__step" data-tier="ban"><span class="ladder__when">Повторно</span><span class="ladder__badge">BAN 3д</span></li>
+        <li class="ladder__step" data-tier="ban-max"><span class="ladder__when">Тяжёлый случай</span><span class="ladder__badge">BAN 7д&ndash;PERM</span></li>
+      </ol>
+    </article>
+
+    <article class="rule-card rule-card--direct">
+      <header class="rule-card__head">
+        <span class="rule-card__code">ВРД&#8209;06</span>
+        <h3 class="rule-card__title">Вредоносная критика проекта / Постоянные атаки на проект</h3>
+      </header>
+      <ol class="ladder">
+        <li class="ladder__step" data-tier="warn"><span class="ladder__when">Первый раз</span><span class="ladder__badge">Строгий WARN</span></li>
+        <li class="ladder__step" data-tier="ban"><span class="ladder__when">Повторно</span><span class="ladder__badge">BAN 3д</span></li>
+        <li class="ladder__step" data-tier="ban-max"><span class="ladder__when">Тяжёлый случай</span><span class="ladder__badge">BAN 7д&ndash;PERM</span></li>
+      </ol>
+    </article>
+
+    <article class="rule-card rule-card--direct rule-card--severe">
+      <header class="rule-card__head">
+        <span class="rule-card__code">ВРД&#8209;07</span>
+        <h3 class="rule-card__title">Exploit / Script / Cheat</h3>
+      </header>
+      <div class="verdict-row">
+        <div class="verdict verdict--solo" data-tier="ban-max">
+          <span class="verdict__label">Любой случай</span>
+          <span class="verdict__badge">PERM BAN + Blacklist</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="rule-card rule-card--direct rule-card--severe">
+      <header class="rule-card__head">
+        <span class="rule-card__code">ВРД&#8209;08</span>
+        <h3 class="rule-card__title">Запрещённый контент / Публикация NSFW</h3>
+      </header>
+      <div class="verdict-row">
+        <div class="verdict verdict--solo" data-tier="ban-max">
+          <span class="verdict__label">Любой случай</span>
+          <span class="verdict__badge">PERM BAN</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="rule-card rule-card--direct rule-card--severe">
+      <header class="rule-card__head">
+        <span class="rule-card__code">ВРД&#8209;09</span>
+        <h3 class="rule-card__title">Попытка Doxx / Распространение личной информации</h3>
+      </header>
+      <div class="verdict-row">
+        <div class="verdict verdict--solo" data-tier="ban-max">
+          <span class="verdict__label">Любой случай</span>
+          <span class="verdict__badge">PERM BAN + Blacklist</span>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- ============ FLIRT RP / 18+ ============ -->
+  <section class="section category" id="flirt">
+    <div class="section__head">
+      <span class="section__code section__code--folder">Раздел V</span>
+      <h2 class="section__title">
+        <svg class="section__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7.5-4.6-10-9C.4 8.9 1.9 5 5.6 5c2.1 0 3.5 1.2 4.4 2.6C10.9 6.2 12.3 5 14.4 5 18.1 5 19.6 8.9 22 12c-2.5 4.4-10 9-10 9z"/></svg>
+        Флирт RP / 18+
+      </h2>
+    </div>
+
+    <div class="note-block note-block--important">
+      <span class="note-block__mark">Важно</span>
+      <p>Чувствительная категория. В соответствии с правилами Roblox гибкость в применении наказаний не допускается.</p>
+    </div>
+
+    <article class="rule-card">
+      <header class="rule-card__head">
+        <span class="rule-card__code">ФРП&#8209;01</span>
+        <h3 class="rule-card__title">Тип A &mdash; Лёгкий флирт / Намёки</h3>
+      </header>
+      <ol class="ladder">
+        <li class="ladder__step" data-tier="warn"><span class="ladder__when">Первый раз</span><span class="ladder__badge">WARN</span></li>
+        <li class="ladder__step" data-tier="kick"><span class="ladder__when">Повторно</span><span class="ladder__badge">KICK</span></li>
+        <li class="ladder__step" data-tier="ban"><span class="ladder__when">Повторно</span><span class="ladder__badge">BAN 1д</span></li>
+        <li class="ladder__step" data-tier="ban-max"><span class="ladder__when">Крайнее повторение</span><span class="ladder__badge">BAN 7д</span></li>
+      </ol>
+    </article>
+
+    <article class="rule-card rule-card--direct">
+      <header class="rule-card__head">
+        <span class="rule-card__code">ФРП&#8209;02</span>
+        <h3 class="rule-card__title">Тип B &mdash; Сексуальные высказывания / Неподобающие сообщения</h3>
+      </header>
+      <ol class="ladder">
+        <li class="ladder__step" data-tier="ban"><span class="ladder__when">Первый раз</span><span class="ladder__badge">BAN 3д</span></li>
+        <li class="ladder__step" data-tier="ban-max"><span class="ladder__when">Повторно</span><span class="ladder__badge">PERM BAN</span></li>
+      </ol>
+    </article>
+
+    <article class="rule-card rule-card--direct rule-card--severe">
+      <header class="rule-card__head">
+        <span class="rule-card__code">ФРП&#8209;03</span>
+        <h3 class="rule-card__title">Тип C &mdash; Сексуальные звуки / Открытый сексуальный RP</h3>
+      </header>
+      <div class="verdict-row">
+        <div class="verdict verdict--solo" data-tier="ban-max">
+          <span class="verdict__label">Любой случай</span>
+          <span class="verdict__badge">PERM BAN</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="rule-card rule-card--direct rule-card--severe">
+      <header class="rule-card__head">
+        <span class="rule-card__code">ФРП&#8209;04</span>
+        <h3 class="rule-card__title">Сексуальные домогательства в отношении игрока</h3>
+      </header>
+      <div class="verdict-row">
+        <div class="verdict verdict--solo" data-tier="ban-max">
+          <span class="verdict__label">В зависимости от тяжести</span>
+          <span class="verdict__badge">BAN 7д&ndash;PERM</span>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- ============ OTHER ============ -->
+  <section class="section category" id="other">
+    <div class="section__head">
+      <span class="section__code section__code--folder">Раздел VI</span>
+      <h2 class="section__title">
+        <svg class="section__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2h9l5 5v15H6V2zm8 1.5V8h4.5L14 3.5zM8 12h8v1.5H8V12zm0 4h8v1.5H8V16zm0-8h4v1.5H8V8z"/></svg>
+        Другие наказания
+      </h2>
+    </div>
+
+    <article class="rule-card">
+      <header class="rule-card__head">
+        <span class="rule-card__code">ПРЧ&#8209;01</span>
+        <h3 class="rule-card__title">Чрезмерный AFK-фарм</h3>
+      </header>
+      <ol class="ladder">
+        <li class="ladder__step" data-tier="notify"><span class="ladder__when">Первый раз</span><span class="ladder__badge">NOTIFY</span></li>
+        <li class="ladder__step" data-tier="warn"><span class="ladder__when">Повторно</span><span class="ladder__badge">WARN</span></li>
+        <li class="ladder__step" data-tier="kick"><span class="ladder__when">Повторно</span><span class="ladder__badge">KICK</span></li>
+        <li class="ladder__step" data-tier="ban-max"><span class="ladder__when">Тяжёлый случай</span><span class="ladder__badge">Сброс прогресса</span></li>
+      </ol>
+    </article>
+
+    <article class="rule-card">
+      <header class="rule-card__head">
+        <span class="rule-card__code">ПРЧ&#8209;02</span>
+        <h3 class="rule-card__title">Намеренное антигеймплейное поведение</h3>
+      </header>
+      <ol class="ladder">
+        <li class="ladder__step" data-tier="warn"><span class="ladder__when">Первый раз</span><span class="ladder__badge">WARN</span></li>
+        <li class="ladder__step" data-tier="kick"><span class="ladder__when">Повторно</span><span class="ladder__badge">KICK</span></li>
+        <li class="ladder__step" data-tier="ban"><span class="ladder__when">Повторно</span><span class="ladder__badge">BAN 1д</span></li>
+        <li class="ladder__step" data-tier="ban-max"><span class="ladder__when">Крайнее повторение</span><span class="ladder__badge">BAN 7д</span></li>
+      </ol>
+    </article>
+
+    <article class="rule-card">
+      <header class="rule-card__head">
+        <span class="rule-card__code">ПРЧ&#8209;03</span>
+        <h3 class="rule-card__title">Не-RP / Troll-имя пользователя</h3>
+      </header>
+      <ol class="ladder">
+        <li class="ladder__step" data-tier="notify"><span class="ladder__when">Первый раз</span><span class="ladder__badge">NOTIFY + смена имени</span></li>
+        <li class="ladder__step" data-tier="kick"><span class="ladder__when">Отказ</span><span class="ladder__badge">KICK</span></li>
+        <li class="ladder__step" data-tier="ban-max"><span class="ladder__when">Отказ после возвращения</span><span class="ladder__badge">BAN 12ч</span></li>
+      </ol>
+    </article>
+
+    <article class="rule-card">
+      <header class="rule-card__head">
+        <span class="rule-card__code">ПРЧ&#8209;04</span>
+        <h3 class="rule-card__title">Troll-скин / Шокирующий контент</h3>
+      </header>
+      <ol class="ladder">
+        <li class="ladder__step" data-tier="notify"><span class="ladder__when">Первый раз</span><span class="ladder__badge">NOTIFY + удаление</span></li>
+        <li class="ladder__step" data-tier="kick"><span class="ladder__when">Отказ</span><span class="ladder__badge">KICK</span></li>
+        <li class="ladder__step" data-tier="ban-max"><span class="ladder__when">Отказ после возвращения</span><span class="ladder__badge">BAN 1д</span></li>
+      </ol>
+    </article>
+
+    <article class="rule-card rule-card--direct">
+      <header class="rule-card__head">
+        <span class="rule-card__code">ПРЧ&#8209;05</span>
+        <h3 class="rule-card__title">Уклонение от наказания</h3>
+      </header>
+      <div class="verdict-row">
+        <div class="verdict" data-tier="ban">
+          <span class="verdict__label">Любой случай</span>
+          <span class="verdict__badge">Наказание x2 от первоначального</span>
+        </div>
+        <div class="verdict verdict--solo" data-tier="ban-max">
+          <span class="verdict__label">Тяжёлый случай</span>
+          <span class="verdict__badge">PERM BAN</span>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- Placeholder anchor for future sections -->
+  <p class="more-soon">Свод дополняется. Новые разделы будут добавлены сюда.</p>
+
+</main>
+
+<footer class="site-footer">
+  <p>Данный свод правил не является исчерпывающим и может быть изменён или дополнен в любое время.</p>
+  <p class="site-footer__fine">Prison RP &mdash; Департамент Внутреннего Порядка</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
